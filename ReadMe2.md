@@ -28,7 +28,7 @@ At the end of this module, you will know how to provision, configure, and integr
 5.  Azure SQL datawarehouse - read/write primer in batch and structured streaming<br>
 6.  Azure Cosmos DB (core API - SQL API/document oriented) - read/write primer in batch and structured streaming; Includes structured streaming aggregation computation<br>
 7.  Azure Data Factory - automating Spark notebooks in Azure Databricks with Azure Data Factory version 2<br>
-8.  Azure Key Vault for secrets management<br>
+8.  Databricks secrets management<br>
 
 The Chicago crimes dataset is leveraged in the lab.<br>
 
