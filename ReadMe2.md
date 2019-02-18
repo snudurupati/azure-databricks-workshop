@@ -32,36 +32,32 @@ At the end of this module, you will know how to provision, configure, and integr
 
 The Chicago crimes dataset is leveraged in the lab.<br>
 
-## 2.  Module 02-Data engineering workshop:
-This is a *batch focused* module and covers building blocks of standing up a data engineering pipeline.  The [NYC taxi dataset](http://www.nyc.gov/html/tlc/html/about/trip_record_data.shtml) (yellow and green taxi trips) is leveraged in the labs.
-<br>
-![primer](images/2.png)
-<br>
-<br>
-![primer](images/3.png)
+## 2.  Data Science Workshops:
+This module focuses on ML pipeline and also a deep learning pipeline using tensorFlow.
 
-The following is a summary of content covered:
-1.  Organizing data in the file system  - architectural considerations, best practices, directory layout, mount storage etc<br>
-2.  Load transaction data, reference data - persist to Parquet format, create external tables for the **RAW** zone<br>
-3.  Transform data - cleanse, de-duplicate, apply business logic and derive/transform and persist to Parquet; Map disparate schemas to a canonical data model; Create external tables in the **CURATED** zone<br>
-4.  Create denormalized, materialized views (tables) in Delta/Parquet and persist to **CONSUMPTION** zone of storage; The layer will give the best performance from a storage and query perspective.  Create external tables on the datasets<br>
-5.  Generate canned reports & visualization, and persist to Parquet to the **DISTRIBUTION** zone of storage<br>
-6.  Integrate reports generated to a reporting datamart RDBMS<br>
-7.  Create a batch job to automate report generation in Spark and and integration with reporting datamart for BI<br>
+In the ML workshop the following are covered:
+1.  Ingest data and cleanse data using a DE pipeline<br>
+2.  Feature Engineering<br>
+3.  Model training and hyperparameter tuning using CrossValidator<br>
+4.  Persist the trained model<br>
+5.  Create batch predictions out of the best model<br>
+6.  Finally persist the predictions on a SQL Server database for downstream consumption<br>
 
-Performance optimization is not in scope and will be offered as a separate workshop.
+the DL workshop consists of
+1. Working with image data:
+2. Loading images natively in Spark DataFrames
+3. Transfer learning, a super quick way to leverage deep learning
+4. Distributed hyperparameter tuning via Spark MLlib Pipelines
+5. Applying deep learning models at scale to images, using your own or known popular models, to make predictions or transform them into features
+6. Working with general tensors:
+7. Applying deep learning models at scale to tensors of up to 2 dimensions
+8. Deploying Models in SQL:
+
+Distributed Deep Learning is not in scope and will be offered as a separate workshop.
 
 ## Next
 [Provisioning guide](docs/1-provisioning-guide/ProvisioningGuide.md)<br>
 [Lab data copy guide](docs/3-data-copy-guide/README.md)<br>
 [Lab guide](docs/2-lab-guide/README.md)
 
-## Credits
-Anagha Khanolkar (Chicago) - creator of workshop, primary author of workshop, content design, all development in Scala, primer module in Pyspark<br>
-Ryan Murphy (St Louis) - contribution to the data engineering workshop transformation rules, schema and more<br>
-Rajdeep Biswas (Houston) - writing the entire PySpark version of the data engineering lab Anagha deveoped in Scala<br>
-Steve Howard (St Louis) - contributing to the PySpark version of the data engineering lab<br>
-Erik Zwiefel (Minneapolis) - content design of data science lab, PySpark version, Azure Machine Learning service integration for operationalization as a REST service, AutoML<br>
-Thomas Abraham (St Louis) - development of ADFv2 integration primer in Pyspark<br>
-Matt Stenzel, Christopher House (Minneapolis) - testing
 
