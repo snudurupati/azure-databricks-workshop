@@ -1,5 +1,5 @@
 # azure-databricks-workshop
-Azure Databricks workshops with content on connectivity to Azure services, data engineering workflows and data sciences notebooks.
+Azure Databricks workshops with content on connectivity to Azure services, data engineering workflows and data science notebooks.
 Each workshop includes a more-or-less practical scenario and where possible, its end-to-end.
 
 Clone of ADB workshops created by Microsoft Field Team based in the US, with minor modofications.
