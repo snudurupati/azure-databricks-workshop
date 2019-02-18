@@ -57,7 +57,6 @@ Distributed Deep Learning is not in scope and will be offered as a separate work
 
 ## Next
 [Provisioning guide](docs/1-provisioning-guide/ProvisioningGuide.md)<br>
-[Lab data copy guide](docs/3-data-copy-guide/README.md)<br>
 [Lab guide](docs/2-lab-guide/README.md)
 
 
