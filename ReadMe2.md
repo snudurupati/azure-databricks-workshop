@@ -33,7 +33,7 @@ At the end of this module, you will know how to provision, configure, and integr
 The Chicago crimes dataset is leveraged in the lab.<br>
 
 ## 2.  Data Science Workshops:
-This module focuses on ML pipeline and also a deep learning pipeline using tensorFlow.
+This module focuses on ML pipeline and also a deep learning pipeline using TensorFlow & Keras.
 
 In the ML workshop the following are covered:
 1.  Ingest data and cleanse data using a DE pipeline<br>
@@ -43,7 +43,7 @@ In the ML workshop the following are covered:
 5.  Create batch predictions out of the best model<br>
 6.  Finally persist the predictions on a SQL Server database for downstream consumption<br>
 
-the DL workshop consists of
+The DL workshop consists of
 1. Working with image data:
 2. Loading images natively in Spark DataFrames
 3. Transfer learning, a super quick way to leverage deep learning
@@ -52,8 +52,6 @@ the DL workshop consists of
 6. Working with general tensors:
 7. Applying deep learning models at scale to tensors of up to 2 dimensions
 8. Deploying Models in SQL:
-
-Distributed Deep Learning is not in scope and will be offered as a separate workshop.
 
 ## Next
 [Provisioning guide](docs/1-provisioning-guide/ProvisioningGuide.md)<br>
